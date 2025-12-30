@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3b5b8a;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #e67e22;
+            margin-top: 20px;
+        }
+        nav {
+            background-color: #f4d03f;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #e67e22;
+        }
+        section {
+            margin: 5px auto;
+            width: 80%;
+            line-height: 1.6;
+            flex: 1;
+        }
+	.middle{
+	    color:white;
+	}
+        .event-img {
+            display: block;
+            margin: 5px auto;
+            width: 60%;
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+	button {
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #d35400;
+        }
+
+        footer {
+            background-color: #f4d03f;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to Spark Events 🎉</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="upcoming.html">Upcoming Events</a>
+        <a href="book.html">Book Event</a>
+    </nav>
+
+    <section>
+        <p class="middle">We organize creative, fun, and memorable events — from weddings to corporate functions. 
+           Our mission is to make every celebration unforgettable!</p>
+        <p class="middle" style="font-style:italic;"><marquee scrollamount="10">Explore our upcoming events or book your own today!</marquee></p>
+	<form action="upcoming.html">
+	<button type="submit">Upcoming Events</button>
+	</form>
+
+        <img src="C:\Users\raviv\Documents\HRK\Presidency University\SEM 3\Web tech\Lab CA 2 webpage\event.jpg" alt="Event Celebration" class="event-img">
+	<form action="book.html">
+	<button type="submit">Book Event</button>
+	</form>
+    </section>
+
+    <footer>
+        <p>© 2025 Spark Events | Contact: info@sparkevents.com</p>
+    </footer>
+</body>
+</html>
